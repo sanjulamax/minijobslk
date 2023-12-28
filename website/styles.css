@@ -1,0 +1,1075 @@
+#backimg {
+  max-width: 100%;
+}
+
+
+#divOut {
+
+  background-image: url("WhatsApp Image 2023-12-27 at 07.03.09.jpeg");
+  background-size:cover;
+  font-family: "poppins";
+  height: 750px;
+
+
+}
+
+#btns {
+  position: absolute;
+  left: 40%;
+  top: 60%;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between ;
+}
+
+#welcome {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+#wlcm {
+
+  position: absolute;
+  top: 115%;
+  left: 50%;
+}
+
+h1 {
+  font-size: 70px;
+  
+}
+
+#img3 {
+
+  padding-left: 60px;
+  height: 400px;
+  width: 450px;
+  
+}
+
+#disc {
+
+  position: absolute;
+  top: 115%;
+  width: 500px;
+  height: auto;
+  left: 50%;
+  font-size: 20px;
+}
+
+#saller{
+
+  width: 600px;
+  display: flex;
+  position: absolute;
+  top: 190%;
+  margin-left: 60px;
+}
+
+#slr {
+
+  position: absolute;
+  top: 10%;
+  font-size: large;
+  padding-left: 20px;
+}
+
+#frl {
+
+  position: absolute;
+  top: 10%;
+  font-size: large;
+  padding-left: 20px;
+}
+
+#freelancer{
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 190%;
+  margin-left: 60px;
+
+}
+
+#sandaru {
+
+  height: 300px;
+  width: 600px;
+  position: absolute;
+  top: 250%;
+  margin-left:60px ;
+  display: flex;
+  flex-direction: row;
+}
+
+#savindu {
+
+  height: 300px;
+  width: 600px;
+  position: absolute;
+  top: 250%;
+  left: 50%;
+  margin-left:60px ;
+  display: flex;
+  flex-direction: row;
+}
+
+.our {
+
+  height: auto;
+  width: 540px;
+  margin-right: 20px ;
+}
+
+.info {
+
+  font-size: large;
+
+}
+
+#about {
+
+  position: absolute;
+  top: 235%;
+  left: 36%;
+}
+
+#contact{
+
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 320%;
+  left: 35%;
+ 
+
+
+}
+
+#imgs{
+
+  width: 400px;
+  height: 400px;
+}
+
+#coninfo{
+
+  position: absolute;
+  top: 0%;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+
+#cnt {
+
+  position: absolute;
+  top: 305%;
+  left: 35%;
+}
+
+
+
+
+
+@font-face {
+  font-family: "poppins";
+  src: url("../fonts/Poppins-Variable.woff2") format("woff2"),
+    url("../fonts/Poppins-Variable.woff") format("woff"),
+    url("../fonts/Poppins-Variable.ttf") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@media only screen and (min-width:300px) and (max-width:400px) {
+
+  
+  
+  #divOut {
+  
+    background-image: url("WhatsApp Image 2023-12-27 at 07.03.09.jpeg");
+    background-size:auto ;
+    font-family: "poppins";
+    height: 750px;
+  
+  
+  }
+  
+  #btns {
+    position: absolute;
+    left: 15%;
+    top: 70%;
+  }
+  
+  #navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between ;
+  }
+  
+  #welcome {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    display: flex;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+  }
+  
+  h1 {
+    font-size: 50px;
+    
+  }
+  
+  #img3 {
+  
+    
+    width: 250px;
+    height:305px;
+    position: absolute;
+    left: -15%;
+    top: 128%;
+    
+  }
+
+  #wlcm {
+
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+    position: absolute;
+    left: 1%;
+
+  }
+
+  #nvbtns {
+
+    position: absolute;
+    top: 1000%;
+    left: 10px;
+  }
+
+
+  #lg {
+
+    position: absolute;
+    top: -10px;
+    left: 10%;
+  }
+  #disc {
+  
+    position: absolute;
+    top: 123%;
+    width: 155px;
+    height: auto;
+    left: 55%;
+    font-size: 10px;
+    
+  }
+  
+  #saller{
+  
+    width: 375px;
+    height: auto;
+    display: flex;
+    position: absolute;
+    top: 190%;
+    left: -15%;
+    
+  }
+  
+  #slr {
+  
+    position: absolute;
+    top: 10%;
+    font-size: large;
+    padding-left: 20px;
+  }
+
+  #slrimg{
+
+    width: 375px;
+    height: 330px;
+  }
+  
+  #frl {
+  
+    position: absolute;
+    top: 10%;
+    font-size: large;
+    padding-left: 20px;
+  }
+
+  #frsimg {
+    
+
+    width: 375px;
+    height: 330px;
+
+  }
+  
+  #freelancer{
+    width: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: -15%;
+    top: 250%;
+    margin-left: 60px;
+  
+  }
+  
+  #sandaru {
+  
+    height: 300px;
+    width: 370px;
+    position: absolute;
+    top: 320%;
+    left: -15%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #savindu {
+  
+    height: 310px;
+    width: 370px;
+    position: absolute;
+    top: 370%;
+    left: -15%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .our {
+  
+    height: 280px;
+    width: 140px;
+    margin-right: 20px ;
+  }
+  
+  .info {
+  
+    font-size: large;
+  
+  }
+  
+  #about {
+  
+    position: absolute;
+    top: 305%;
+    left: 16%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #contact{
+  
+    width: 375px;
+    height: 400px;
+    position: absolute;
+    top: 435%;
+    left: 0%;
+   
+  
+  
+  }
+  
+  #imgs{
+  
+    width: 400px;
+    height: 400px;
+  }
+  
+  #coninfo{
+  
+    position: absolute;
+    top: 0%;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+  }
+  
+  
+  #cnt {
+  
+    position: absolute;
+    top: 420%;
+    left: 8%;
+  }
+  
+  
+
+
+}
+
+@media only screen and (min-width:400px) and (max-width:500px) {
+
+  
+  
+  #divOut {
+  
+    background-image: url("WhatsApp Image 2023-12-27 at 07.03.09.jpeg");
+    background-size:auto ;
+    font-family: "poppins";
+    height: 750px;
+  
+  
+  }
+  
+  #btns {
+    position: absolute;
+    left: 15%;
+    top: 60%;
+  }
+  
+  #navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between ;
+  }
+  
+  #welcome {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    display: flex;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+  }
+  
+  h1 {
+    font-size: 50px;
+    
+  }
+  
+  #img3 {
+  
+    
+    width: 250px;
+    height:305px;
+    position: absolute;
+    left: -15%;
+    top: 95%;
+    
+  }
+
+  #wlcm {
+
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+    position: absolute;
+    top: 85%;
+    left: 1%;
+
+  }
+
+  #nvbtns {
+
+    position: absolute;
+    top: 1000%;
+    left: 10px;
+  }
+
+
+  #lg {
+
+    position: absolute;
+    top: -10px;
+    left: 10%;
+  }
+  #disc {
+  
+    position: absolute;
+    top: 92%;
+    width: 155px;
+    height: auto;
+    left: 55%;
+    font-size: 10px;
+    
+  }
+  
+  #saller{
+  
+    width: 375px;
+    height: auto;
+    display: flex;
+    position: absolute;
+    top: 140%;
+    left: -7%;
+    
+  }
+  
+  #slr {
+  
+    position: absolute;
+    top: 10%;
+    font-size: large;
+    padding-left: 20px;
+  }
+
+  #slrimg{
+
+    width: 375px;
+    height: 330px;
+  }
+  
+  #frl {
+  
+    position: absolute;
+    top: 10%;
+    font-size: large;
+    padding-left: 20px;
+  }
+
+  #frsimg {
+    
+
+    width: 375px;
+    height: 330px;
+
+  }
+  
+  #freelancer{
+    width: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: -7%;
+    top: 180%;
+    margin-left: 60px;
+  
+  }
+  
+  #sandaru {
+  
+    height: 300px;
+    width: 370px;
+    position: absolute;
+    top: 240%;
+    left: -7%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #savindu {
+  
+    height: 310px;
+    width: 370px;
+    position: absolute;
+    top: 280%;
+    left: -7%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .our {
+  
+    height: 280px;
+    width: 140px;
+    margin-right: 20px ;
+  }
+  
+  .info {
+  
+    font-size: large;
+  
+  }
+  
+  #about {
+  
+    position: absolute;
+    top: 225%;
+    left: 16%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #contact{
+  
+    width: 375px;
+    height: 400px;
+    position: absolute;
+    top: 335%;
+    left: 3%;
+   
+  
+  
+  }
+  
+  #imgs{
+  
+    width: 400px;
+    height: 400px;
+  }
+  
+  #coninfo{
+  
+    position: absolute;
+    top: 0%;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+  }
+  
+  
+  #cnt {
+  
+    position: absolute;
+    top: 320%;
+    left: 10%;
+  }
+  
+  
+
+
+}
+
+@media only screen and (min-width:700px) and (max-width:800px) {
+
+  
+
+  
+  #welcome {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    display: flex;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+  }
+  
+  h1 {
+    font-size: 70px;
+    
+  }
+
+  #btns {
+
+    position: absolute;
+    top: 50%;
+    left: 30%;
+  }
+  
+  #img3 {
+  
+    
+    width: 350px;
+    height:405px;
+    position: absolute;
+    left: -3%;
+    top:90%;
+    
+  }
+
+  #wlcm {
+
+    display: flex;
+    flex-direction: row;
+    font-size: 40px !important;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+
+  }
+
+
+
+  #disc {
+  
+    position: absolute;
+    top: 83%;
+    width: 330px;
+    height: auto;
+    left: 50%;
+    font-size: 20px;
+    
+  }
+  
+  #saller{
+  
+    width: 575px;
+    height: auto;
+    display: flex;
+    position: absolute;
+    top: 155%;
+    left: 0%;
+    
+  }
+  
+  #slr {
+  
+    position: absolute;
+    top: 10%;
+    font-size: larger;
+    padding-left: 20px;
+  }
+
+  #slrimg{
+
+    width: 575px;
+    height: 330px;
+  }
+  
+  #frl {
+  
+    position: absolute;
+    top: 10%;
+    font-size: larger;
+    padding-left: 20px;
+  }
+
+  #frsimg {
+    
+
+    width: 575px;
+    height: 330px;
+
+  }
+  
+  #freelancer{
+    width: 575px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0%;
+    top: 190%;
+    margin-left: 60px;
+  
+  }
+  
+  #sandaru {
+  
+    height: 281px;
+    width: 350px;
+    position: absolute;
+    top: 245%;
+    left: -8%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #savindu {
+  
+    height: 281px;
+    width: 350px;
+    position: absolute;
+    top: 245%;
+    left: 40%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .our {
+  
+    height: 280px;
+    width: 140px;
+    margin-right: 20px ;
+  }
+  
+  .info {
+  
+    font-size: 15px;
+  
+  }
+  
+  #about {
+  
+    position: absolute;
+    top: 230%;
+    left: 20%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #contact{
+  
+    width: 375px;
+    height: 400px;
+    position: absolute;
+    top:  295%;
+    left: 20%;
+   
+  
+  
+  }
+  
+  #imgs{
+  
+    width: 400px;
+    height: 400px;
+  }
+  
+  #coninfo{
+  
+    position: absolute;
+    top: 0%;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+  }
+  
+  
+  #cnt {
+  
+    position: absolute;
+    top: 280%;
+    left: 16%;
+  }
+  
+  
+
+
+}
+
+@media only screen and (min-width:900px) and (max-width:1020px) {
+
+  
+
+  
+  #welcome {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    display: flex;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+  }
+  
+  h1 {
+    font-size: 70px;
+    
+  }
+
+  #btns {
+
+    position: absolute;
+    top: 40%;
+    left: 30%;
+  }
+  
+  #img3 {
+  
+    
+    width: 350px;
+    height:405px;
+    position: absolute;
+    left: -3%;
+    top:70%;
+    
+  }
+
+  #wlcm {
+
+    display: flex;
+    flex-direction: row;
+    font-size: 40px !important;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+
+  }
+
+
+
+  #disc {
+  
+    position: absolute;
+    top: 63%;
+    width: 330px;
+    height: auto;
+    left: 50%;
+    font-size: 20px;
+    
+  }
+  
+  #saller{
+  
+    width: 675px;
+    height: auto;
+    display: flex;
+    position: absolute;
+    top: 120%;
+    left: 0%;
+    
+  }
+  
+  #slr {
+  
+    position: absolute;
+    top: 10%;
+    font-size: 25px;
+    padding-left: 20px;
+  }
+
+  #slrimg{
+
+    width: 675px;
+    height: 370px;
+  }
+  
+  #frl {
+  
+    position: absolute;
+    top: 10%;
+    font-size: 25px;
+    padding-left: 20px;
+  }
+
+  #frsimg {
+    
+
+    width: 675px;
+    height: 370px;
+
+  }
+  
+  #freelancer{
+    width: 675px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0%;
+    top: 153%;
+    margin-left: 60px;
+  
+  }
+  
+  #sandaru {
+  
+    height: 281px;
+    width: 370px;
+    position: absolute;
+    top: 195%;
+    left: 0%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #savindu {
+  
+    height: 281px;
+    width: 370px;
+    position: absolute;
+    top: 195%;
+    left: 45%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .our {
+  
+    height: 280px;
+    width: 140px;
+    margin-right: 20px ;
+  }
+  
+  .info {
+  
+    font-size: 17px;
+  
+  }
+  
+  #about {
+  
+    position: absolute;
+    top: 185%;
+    left: 28%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #contact{
+  
+    width: 375px;
+    height: 400px;
+    position: absolute;
+    top:  235%;
+    left: 28%;
+   
+  
+  
+  }
+  
+  #imgs{
+  
+    width: 400px;
+    height: 400px;
+  }
+  
+  #coninfo{
+  
+    position: absolute;
+    top: 0%;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+  }
+  
+  
+  #cnt {
+  
+    position: absolute;
+    top: 225%;
+    left: 28%;
+  }
+  
+  
+
+
+}
+

@@ -13,10 +13,10 @@
 
           
 
-           $db_name = "login";
-           $db_server = "127.0.0.1:3308" ;
-           $db_password = "";
-           $db_user = "root" ;
+           $db_name = "if0_35581740_logpannel";
+           $db_server = "sql105.infinityfree.com" ;
+           $db_password = "bcPOade6kFdZli";
+           $db_user = "if0_35581740" ;
 
            $conn = mysqli_connect($db_server , $db_user , $db_password , $db_name) ;
 
